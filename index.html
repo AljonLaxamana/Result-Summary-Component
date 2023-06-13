@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <!-- result section -->
+    <header>
+      <section class="result-container">
+        <p class="result-title">Your Result</p>
+        <div class="result-circle-points">
+          <h1 class="result-score">76</h1>
+          <p class="result-over-all">of 100</p>
+        </div>
+        <h3 class="result-sub-title">Great</h3>
+        <p class="result-details">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+    </header>
+
+    <!-- summary details -->
+    <main>
+      <section class="summary-container">
+        <h3 class="summary-title">Summary</h3>
+        <article class="summary-details-container">
+          <!-- reaction section -->
+          <div class="reaction-container-points">
+            <div class="text-and-icon-container">
+              <img src="/assets/images/icon-reaction.svg" />
+              <p class="reaction-title">Reaction</p>
+            </div>
+            <span class="reaction-total-points"
+              >80<span class="light-gray-text"> / 100</span></span
+            >
+          </div>
+          <!-- memory section -->
+          <div class="memory-container-points">
+            <div class="text-and-icon-container">
+              <img src="/assets/images/icon-memory.svg" />
+              <p class="memory-title">Memory</p>
+            </div>
+            <span class="memory-total-points"
+              >92<span class="light-gray-text"> / 100</span></span
+            >
+          </div>
+          <!-- verbal section -->
+          <div class="verbal-container-points">
+            <div class="text-and-icon-container">
+              <img src="/assets/images/icon-verbal.svg" />
+              <p class="verbal-title">Verbal</p>
+            </div>
+            <span class="verbal-total-points"
+              >61<span class="light-gray-text"> / 100</span></span
+            >
+          </div>
+          <!-- visual section -->
+          <div class="visual-container-points">
+            <div class="text-and-icon-container">
+              <img src="/assets/images/icon-visual.svg" />
+              <p class="visual-title">Visual</p>
+            </div>
+            <span class="visual-total-points"
+              >72<span class="light-gray-text"> / 100</span></span
+            >
+          </div>
+        </article>
+        <button class="btn-continue">Continue</button>
+      </section>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Aljon Laxamana</a>.
+    </div> -->
+  </body>
+</html>
